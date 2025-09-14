@@ -1,0 +1,21 @@
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        Console.Write("Enter your first name: ");
+        string firstName = Console.ReadLine();
+
+        Console.Write("Enter your last name: ");
+        string lastName = Console.ReadLine();
+
+        Console.WriteLine($"\nHello, {firstName} {lastName}.");
+        Console.WriteLine("Your codename is now Snake.");
+        Console.WriteLine("For your first mission, you will be given:");
+        Console.WriteLine("- A codec");
+        Console.WriteLine("- A cardboard box for hiding");
+        Console.WriteLine("- A pack of cigarettes for when shtf");
+        Console.WriteLine($"Good luck, {firstName} {lastName}!");
+    }
+}
